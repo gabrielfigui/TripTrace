@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Travel Planning Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Your Travel Planner</h1>
+            <p>Your dream vacation starts here. Let us handle everything.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <h3>All-Inclusive Trip Planning</h3>
+                <p>We take care of everything from flights to hotels to activities, ensuring a stress-free experience.</p>
+            </div>
+            <div class="service-item">
+                <h3>Custom Itineraries</h3>
+                <p>Get personalized itineraries tailored to your preferences and needs.</p>
+            </div>
+            <div class="service-item">
+                <h3>Group Travel Planning</h3>
+                <p>Plan trips for family, friends, or corporate retreats with our expert guidance.</p>
+            </div>
+            <div class="service-item">
+                <h3>Budgeting and Financial Planning</h3>
+                <p>We help you manage your travel budget effectively, offering payment plans and savings strategies.</p>
+            </div>
+            <!-- Add more service items as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about helping you create unforgettable travel experiences. With our expertise and personalized approach, we make planning your dream vacation easy and enjoyable.</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-item">
+                <p>"Best travel experience ever! Everything was perfectly organized."</p>
+                <span>- Client Name</span>
+            </div>
+            <div class="testimonial-item">
+                <p>"Highly recommend their services! Stress-free and enjoyable travel planning."</p>
+                <span>- Client Name</span>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Travel Planning Business. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
